@@ -1,11 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800;900&display=swap');
 
 body{
-    font-family: ;
+    font-family: Work Sans;
+}
+
+
+/* banner style start */
+.banner{
+    background-color: rgba(255, 144, 14, 0.10);
 }
 .nav{
     display: flex;
@@ -14,16 +20,45 @@ body{
 .nav ul{
     list-style: none;
     display: flex;
+    padding: 1em;
+    gap: .5em;
 }
 .nav ul a{
+    color: #B33771;
+    font-size: 1em;
+    font-weight: 600;
     text-decoration: none;
     padding: 10px;
+    border-radius: 10px;
+}
+.nav ul a:hover{
+    border: none;
+    background-color: #fd9644;
+    color: white;
 }
 .introduction{
-    border: 2px solid black;
     text-align: center;
     margin: 1.5em 0em;
 }
 .banner-title{
-    
+    color: blueviolet;
+    padding: .75em 0em;
+}
+.intro{
+    color: #B33771;
+    font-size: 1em;
+    font-weight: 400;
+}
+.introduction button{
+    margin: .75em auto;
+    padding: .75em;
+    border: none;
+    border-radius: 10px;
+    background-color: #fd9644;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+.picture{
+    margin: 1em auto;
 }
